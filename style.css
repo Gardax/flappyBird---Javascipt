@@ -1,0 +1,53 @@
+#board{
+	position:absolute;
+	left:50px; 
+	top:50px; 
+	width:470px; 
+	height:300px; 
+	overflow:hidden;
+}
+
+#score{
+	position:absolute; 
+	left:400px; 
+	top:0px; 
+	height:25px; 
+	z-index:5; 
+	color:red; 
+	font-weight:bold;
+}
+
+#bird{
+	z-index:5;
+	position: absolute;
+}
+
+#pipe{
+	left:205px; 
+	top:75px; 
+	z-index:100;
+}
+
+#sky{
+	top:-20px; 
+	height:320px; 
+	background-image:url('bg2.jpg'); 
+}
+
+#grass{
+	top:235px; 
+	height:85px; 
+	z-index:4; 
+	background-image:url('grass.jpg');
+}
+
+.background{
+	position: absolute; 
+	left: 0px; 
+	width: 16000px; 
+	background-repeat: repeat-x;
+}
+
+.absoluteElement{
+	position: absolute;
+}
