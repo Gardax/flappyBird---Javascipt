@@ -1,0 +1,29 @@
+﻿body {  
+       
+    background: linear-gradient(0deg, #7bdffe, #5bccfe);
+    background-repeat: no-repeat;
+    background-position:center;       
+    height:685px;
+}
+
+#background {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    height:650px;
+    
+}
+#start{
+    text-decoration:none;
+    font-size:50px;
+    font-family: 'Comic Sans MS', cursive;
+    font-weight:bold;
+    color:#fdc401;
+    border:4px solid #b21000;
+    padding:10px;
+    position:absolute;
+    margin-left:610px;
+    margin-top:470px;
+    background-color:#b21000;
+    border-radius:5px;
+}
