@@ -2,7 +2,7 @@
        
     background-image:url('bg-pattern.png');
     background-repeat: repeat;
-	background-color:#2B0000;
+	background-color:#D4D4FF;
     background-position:center;       
     height:685px;
 }
@@ -11,7 +11,7 @@
     background-image: url('background.png');
     background-repeat: no-repeat;
     background-position:center;
-    height:650px;
+    height:350px;
     
 }
 #start{
@@ -25,11 +25,23 @@
     border: 2px solid black;
     padding:10px;
     position:absolute;
-    margin-top:300px;
+    margin-top:160px;
     background-color:#b21000;
     border-radius:5px;
 }
 #start:hover{
 	background-color:#cd1200;
 	color:#ffdd6a;
+}
+
+h1{
+	font-size:36px;
+	text-align:center;
+	font-family:Courier;
+	color:#600;
+	padding-top:50px;
+}
+h1:hover{
+	color:#C00;
+	cursor:pointer;
 }

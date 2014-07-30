@@ -2,7 +2,7 @@ body {
        
     background-image:url('bg-pattern.png');
     background-repeat: repeat;
-	background-color:#2B0000;
+	background-color:#D4D4FF;
     background-position:center;       
     height:685px;
 }
@@ -44,13 +44,6 @@ body {
 	background-image:url('bg2.png'); 
 }
 
-#grass{
-	top:235px; 
-	height:85px; 
-	z-index:4; 
-	background-image:url('grass.jpg');
-}
-
 .background{
 	position: absolute; 
 	left: 0px; 
@@ -60,4 +53,16 @@ body {
 
 .absoluteElement{
 	position: absolute;
+}
+
+h1{
+	font-size:36px;
+	text-align:center;
+	font-family:Courier;
+	color:#600;
+	padding-top:50px;
+}
+h1:hover{
+	color:#C00;
+	cursor:pointer;
 }
