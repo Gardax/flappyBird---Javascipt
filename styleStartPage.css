@@ -7,7 +7,7 @@
     height:685px;
 }
 
-#background {
+#welcome {
     background-image: url('background.png');
     background-repeat: no-repeat;
     background-position:center;
@@ -15,8 +15,13 @@
     
 }
 #start{
-    display: block;
-    margin-left: 700px;
+	display:block;
+    position:absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+	width:140px;
     text-decoration:none;
     font-size:50px;
     font-family: 'Comic Sans MS', cursive;
@@ -24,7 +29,6 @@
     color:#fdc401;
     border: 2px solid black;
     padding:10px;
-    position:absolute;
     margin-top:160px;
     background-color:#b21000;
     border-radius:5px;
@@ -37,7 +41,7 @@
 h1{
 	font-size:36px;
 	text-align:center;
-	font-family:Courier;
+	font-family:Comic Sans MS;
 	color:#600;
 	padding-top:50px;
 }

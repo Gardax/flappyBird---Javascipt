@@ -8,8 +8,12 @@ body {
 }
 
 #board{
-	position:absolute;
-	left:550px; 
+	display:block;
+    position:absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
 	top:200px; 
 	width:470px; 
 	height:300px; 
@@ -58,7 +62,7 @@ body {
 h1{
 	font-size:36px;
 	text-align:center;
-	font-family:Courier;
+	font-family:Comic Sans MS;
 	color:#600;
 	padding-top:50px;
 }
