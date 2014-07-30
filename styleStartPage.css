@@ -1,7 +1,8 @@
 ﻿body {  
        
-    background: linear-gradient(0deg, #7bdffe, #5bccfe);
-    background-repeat: no-repeat;
+    background-image:url('bg-pattern.png');
+    background-repeat: repeat;
+	background-color:#2B0000;
     background-position:center;       
     height:685px;
 }
@@ -14,16 +15,21 @@
     
 }
 #start{
+    display: block;
+    margin-left: 700px;
     text-decoration:none;
     font-size:50px;
     font-family: 'Comic Sans MS', cursive;
     font-weight:bold;
     color:#fdc401;
-    border:4px solid #b21000;
+    border: 2px solid black;
     padding:10px;
     position:absolute;
-    margin-left:510px;
-    margin-top:470px;
+    margin-top:300px;
     background-color:#b21000;
     border-radius:5px;
+}
+#start:hover{
+	background-color:#cd1200;
+	color:#ffdd6a;
 }
