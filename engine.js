@@ -80,7 +80,7 @@
             {
                 if (y+dimPipe.height-increaseHole > birdPosstition.y && y < birdPosstition.y+birdPosstition.h-increaseHole)
                 {
-                    return gameOver();
+                    return gameOver(); //still die
                 }
             }
 
@@ -100,7 +100,7 @@
         obs.appendTo(board).animate({ left: -50 }, Math.max(2000, 3500 - noClr * 50), 'linear', function () {
 
             //move this to increase score when you move through the pipes
-            //$('#score').text(' Score: ' + (score += 0.5 ));
+            $('#score').text(' Score: ' + (score += 0.5 ));
             //end
             this.remove();
         });
