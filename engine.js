@@ -41,7 +41,13 @@
         bird.animate({ top: board.height() - birdPosstition.h, rotate: 540 }, 1000)
             .animate({ top: board.height() - birdPosstition.h }, 500, function () {
                 $('#score').text(' Score: ' + score);
-                start();
+                alert("Your score is: " + score);
+                var r = confirm("Play again?");
+                if (r == true) {
+                    start();
+                } else {
+                    open(location, '_self').close();
+                }
             });
     }
 
